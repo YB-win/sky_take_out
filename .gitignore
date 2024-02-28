@@ -1,0 +1,7 @@
+#把项目git到远程仓库，以下是需要排除的文件
+**/target/
+.idea
+*.iml
+*.class
+*Test.java
+**/test/
