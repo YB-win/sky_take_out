@@ -9,6 +9,8 @@ import java.io.Serializable;
  * @param <T>
  */
 @Data
+//@Data 是 Lombok 提供的一个注解，用于在 Java 类中自动添加一些通用方法，如 getter、setter、equals、hashCode 和 toString 方法。
+// 通过使用 @Data 注解，可以简化代码
 public class Result<T> implements Serializable {
 
     private Integer code; //编码：1成功，0和其它数字为失败
